@@ -1,0 +1,10 @@
+PWDEBUG=1 pytest -k 'test_expect'                - в терминале
+PWDEBUG=1                                        - либо в Edit configurations/environment variables
+PWDEBUG=console pytest --headed -k 'test_expect' - чтобы объект playwright стал  доступен в консоли DevTools
+                                                 - потом F12, console, пишем Playwright.locator(".new-todo") и т.п.
+                                                 - playwright.$(selector): выделяет первое вхождение селектора  CSS или XPATH
+                                                 - playwright.$$(селектор): выделяет все вхождения селектора CSS или XPATH
+                                                 - playwright.inspect(selector) переместит во вкладу элементы и отобразит данный селектор в DOM
+                                                 - playwright.generateLocator($0) сгенерирует локатор для выбранного на вкладке elements элемента
+DEBUG=pw:api                                     - в Edit configurations/environment variables
+                                                 - добавит при выполнении теста в вывод терминала содержимое журнала регистрации, показывающее каждую команду по мере ее выполнения
