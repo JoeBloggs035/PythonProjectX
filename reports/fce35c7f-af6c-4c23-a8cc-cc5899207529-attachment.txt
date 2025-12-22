@@ -1,2 +1,0 @@
-200
-{'totvs': 5, 'string': 45, 'sold ': 1, 'not_a_status': 1, 'Busy': 1, 'pending': 87, 'available': 677, 'weisskeiner1': 2, 'Not Available': 1, 'soldout': 1, 'available, sold': 2, 'Available': 1, 'На работе': 1, 'sold': 107, 'petting': 1, 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa': 5, 'd': 2, 'NOT available': 1, 'avalible': 1, 'active': 9, 'Bussysimo': 1, 'PENDING': 3, 'availabl': 2, 'AVAILABLE': 3, 'SOLD': 4, 'invalid_status': 1, 'not_sold': 2, 'availble': 1, 'fsdfdsfs': 1}
