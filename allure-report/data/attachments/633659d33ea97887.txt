@@ -1,2 +1,0 @@
-
- alert : Hello from Open Solutions 🙂
