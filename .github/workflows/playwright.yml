@@ -22,7 +22,7 @@ jobs:
         run: python -m playwright install --with-deps
       - name: Run your tests
         run: |
-          pytest --headed -vs PageObjectByAntonZimaev/tests/
+          pytest -vs PageObjectByAntonZimaev/tests/
           allure generate -c reports
           allure open
       - uses: actions/upload-artifact@v4
