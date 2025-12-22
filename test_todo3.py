@@ -4,7 +4,7 @@ from playwright.sync_api import Playwright
 
 
 def test_add_todo(playwright: Playwright) -> None:
-    browser = playwright.chromium.launch(headless=False)
+    browser = playwright.chromium.launch(headless=True)
     context = browser.new_context()
     page = context.new_page()
     page.goto("https://demo.playwright.dev/todomvc/#/")
