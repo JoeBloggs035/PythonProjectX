@@ -156,3 +156,6 @@ def test_add_user(page):
     print(response.status)
     print(response.json())
     # time.sleep(7)
+
+# allure generate reports -c
+# allure open
