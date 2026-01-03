@@ -9,7 +9,7 @@ import allure
 def test_login_failure(login_page):
     with allure.step("Открыть страницу авторизации"):
         login_page.navigate()
-    with allure.step("Ввести в форму авторизации недействительные учетные данные"):
+    with allure.step("Ввести в форму авторизации неееедействительные учетные данные"):
         login_page.login("invalid_user", "invalid_password")
     with allure.step("Отображается ошибка - Invalid credentials. Please try again."):
         assert (
